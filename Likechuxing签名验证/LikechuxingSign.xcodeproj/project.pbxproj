@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486F6F9520D1028300518E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 486F6F9420D1028300518E14 /* AppDelegate.m */; };
+		486F6F9820D1028300518E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486F6F9720D1028300518E14 /* ViewController.m */; };
+		486F6F9B20D1028300518E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486F6F9920D1028300518E14 /* Main.storyboard */; };
+		486F6F9D20D1028300518E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486F6F9C20D1028300518E14 /* Assets.xcassets */; };
+		486F6FA020D1028300518E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486F6F9E20D1028300518E14 /* LaunchScreen.storyboard */; };
+		486F6FA320D1028300518E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 486F6FA220D1028300518E14 /* main.m */; };
+		486F6FAD20D1028300518E14 /* LikechuxingSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 486F6FAC20D1028300518E14 /* LikechuxingSignTests.m */; };
+		486F6FB820D1028300518E14 /* LikechuxingSignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 486F6FB720D1028300518E14 /* LikechuxingSignUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		486F6FA920D1028300518E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486F6F8820D1028200518E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486F6F8F20D1028300518E14;
+			remoteInfo = LikechuxingSign;
+		};
+		486F6FB420D1028300518E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486F6F8820D1028200518E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486F6F8F20D1028300518E14;
+			remoteInfo = LikechuxingSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		486F6F9020D1028300518E14 /* LikechuxingSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikechuxingSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		486F6F9320D1028300518E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		486F6F9420D1028300518E14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		486F6F9620D1028300518E14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		486F6F9720D1028300518E14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		486F6F9A20D1028300518E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		486F6F9C20D1028300518E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486F6F9F20D1028300518E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		486F6FA120D1028300518E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486F6FA220D1028300518E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		486F6FA820D1028300518E14 /* LikechuxingSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikechuxingSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486F6FAC20D1028300518E14 /* LikechuxingSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikechuxingSignTests.m; sourceTree = "<group>"; };
+		486F6FAE20D1028300518E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486F6FB320D1028300518E14 /* LikechuxingSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikechuxingSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486F6FB720D1028300518E14 /* LikechuxingSignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikechuxingSignUITests.m; sourceTree = "<group>"; };
+		486F6FB920D1028300518E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486F6F8D20D1028300518E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486F6FA520D1028300518E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486F6FB020D1028300518E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		486F6F8720D1028200518E14 = {
+			isa = PBXGroup;
+			children = (
+				486F6F9220D1028300518E14 /* LikechuxingSign */,
+				486F6FAB20D1028300518E14 /* LikechuxingSignTests */,
+				486F6FB620D1028300518E14 /* LikechuxingSignUITests */,
+				486F6F9120D1028300518E14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		486F6F9120D1028300518E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486F6F9020D1028300518E14 /* LikechuxingSign.app */,
+				486F6FA820D1028300518E14 /* LikechuxingSignTests.xctest */,
+				486F6FB320D1028300518E14 /* LikechuxingSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486F6F9220D1028300518E14 /* LikechuxingSign */ = {
+			isa = PBXGroup;
+			children = (
+				486F6F9320D1028300518E14 /* AppDelegate.h */,
+				486F6F9420D1028300518E14 /* AppDelegate.m */,
+				486F6F9620D1028300518E14 /* ViewController.h */,
+				486F6F9720D1028300518E14 /* ViewController.m */,
+				486F6F9920D1028300518E14 /* Main.storyboard */,
+				486F6F9C20D1028300518E14 /* Assets.xcassets */,
+				486F6F9E20D1028300518E14 /* LaunchScreen.storyboard */,
+				486F6FA120D1028300518E14 /* Info.plist */,
+				486F6FA220D1028300518E14 /* main.m */,
+			);
+			path = LikechuxingSign;
+			sourceTree = "<group>";
+		};
+		486F6FAB20D1028300518E14 /* LikechuxingSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				486F6FAC20D1028300518E14 /* LikechuxingSignTests.m */,
+				486F6FAE20D1028300518E14 /* Info.plist */,
+			);
+			path = LikechuxingSignTests;
+			sourceTree = "<group>";
+		};
+		486F6FB620D1028300518E14 /* LikechuxingSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				486F6FB720D1028300518E14 /* LikechuxingSignUITests.m */,
+				486F6FB920D1028300518E14 /* Info.plist */,
+			);
+			path = LikechuxingSignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486F6F8F20D1028300518E14 /* LikechuxingSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486F6FBC20D1028300518E14 /* Build configuration list for PBXNativeTarget "LikechuxingSign" */;
+			buildPhases = (
+				486F6F8C20D1028300518E14 /* Sources */,
+				486F6F8D20D1028300518E14 /* Frameworks */,
+				486F6F8E20D1028300518E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikechuxingSign;
+			productName = LikechuxingSign;
+			productReference = 486F6F9020D1028300518E14 /* LikechuxingSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		486F6FA720D1028300518E14 /* LikechuxingSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486F6FBF20D1028300518E14 /* Build configuration list for PBXNativeTarget "LikechuxingSignTests" */;
+			buildPhases = (
+				486F6FA420D1028300518E14 /* Sources */,
+				486F6FA520D1028300518E14 /* Frameworks */,
+				486F6FA620D1028300518E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486F6FAA20D1028300518E14 /* PBXTargetDependency */,
+			);
+			name = LikechuxingSignTests;
+			productName = LikechuxingSignTests;
+			productReference = 486F6FA820D1028300518E14 /* LikechuxingSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		486F6FB220D1028300518E14 /* LikechuxingSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486F6FC220D1028300518E14 /* Build configuration list for PBXNativeTarget "LikechuxingSignUITests" */;
+			buildPhases = (
+				486F6FAF20D1028300518E14 /* Sources */,
+				486F6FB020D1028300518E14 /* Frameworks */,
+				486F6FB120D1028300518E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486F6FB520D1028300518E14 /* PBXTargetDependency */,
+			);
+			name = LikechuxingSignUITests;
+			productName = LikechuxingSignUITests;
+			productReference = 486F6FB320D1028300518E14 /* LikechuxingSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		486F6F8820D1028200518E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = xiaolin;
+				TargetAttributes = {
+					486F6F8F20D1028300518E14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					486F6FA720D1028300518E14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 486F6F8F20D1028300518E14;
+					};
+					486F6FB220D1028300518E14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 486F6F8F20D1028300518E14;
+					};
+				};
+			};
+			buildConfigurationList = 486F6F8B20D1028200518E14 /* Build configuration list for PBXProject "LikechuxingSign" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 486F6F8720D1028200518E14;
+			productRefGroup = 486F6F9120D1028300518E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486F6F8F20D1028300518E14 /* LikechuxingSign */,
+				486F6FA720D1028300518E14 /* LikechuxingSignTests */,
+				486F6FB220D1028300518E14 /* LikechuxingSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486F6F8E20D1028300518E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486F6FA020D1028300518E14 /* LaunchScreen.storyboard in Resources */,
+				486F6F9D20D1028300518E14 /* Assets.xcassets in Resources */,
+				486F6F9B20D1028300518E14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486F6FA620D1028300518E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486F6FB120D1028300518E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486F6F8C20D1028300518E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486F6F9820D1028300518E14 /* ViewController.m in Sources */,
+				486F6FA320D1028300518E14 /* main.m in Sources */,
+				486F6F9520D1028300518E14 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486F6FA420D1028300518E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486F6FAD20D1028300518E14 /* LikechuxingSignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486F6FAF20D1028300518E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486F6FB820D1028300518E14 /* LikechuxingSignUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		486F6FAA20D1028300518E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486F6F8F20D1028300518E14 /* LikechuxingSign */;
+			targetProxy = 486F6FA920D1028300518E14 /* PBXContainerItemProxy */;
+		};
+		486F6FB520D1028300518E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486F6F8F20D1028300518E14 /* LikechuxingSign */;
+			targetProxy = 486F6FB420D1028300518E14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		486F6F9920D1028300518E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486F6F9A20D1028300518E14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		486F6F9E20D1028300518E14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486F6F9F20D1028300518E14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		486F6FBA20D1028300518E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		486F6FBB20D1028300518E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		486F6FBD20D1028300518E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikechuxingSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.LikechuxingSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		486F6FBE20D1028300518E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikechuxingSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.LikechuxingSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		486F6FC020D1028300518E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikechuxingSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.LikechuxingSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikechuxingSign.app/LikechuxingSign";
+			};
+			name = Debug;
+		};
+		486F6FC120D1028300518E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikechuxingSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.LikechuxingSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikechuxingSign.app/LikechuxingSign";
+			};
+			name = Release;
+		};
+		486F6FC320D1028300518E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikechuxingSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.LikechuxingSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikechuxingSign;
+			};
+			name = Debug;
+		};
+		486F6FC420D1028300518E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikechuxingSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.LikechuxingSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikechuxingSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		486F6F8B20D1028200518E14 /* Build configuration list for PBXProject "LikechuxingSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486F6FBA20D1028300518E14 /* Debug */,
+				486F6FBB20D1028300518E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486F6FBC20D1028300518E14 /* Build configuration list for PBXNativeTarget "LikechuxingSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486F6FBD20D1028300518E14 /* Debug */,
+				486F6FBE20D1028300518E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486F6FBF20D1028300518E14 /* Build configuration list for PBXNativeTarget "LikechuxingSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486F6FC020D1028300518E14 /* Debug */,
+				486F6FC120D1028300518E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486F6FC220D1028300518E14 /* Build configuration list for PBXNativeTarget "LikechuxingSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486F6FC320D1028300518E14 /* Debug */,
+				486F6FC420D1028300518E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 486F6F8820D1028200518E14 /* Project object */;
+}
