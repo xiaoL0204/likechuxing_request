@@ -35,8 +35,7 @@ def signRequestParam(param_dic):
 	beforeSignStr = ''
 	for key in sortedKeys:
 		value = param_dic[key]
-		if value != "":
-			beforeSignStr = beforeSignStr + key + '=' + value + 'K'
+		beforeSignStr = beforeSignStr + key + '=' + value + 'K'
 		
 	beforeSignStr = beforeSignStr + 'key='
 	afterSignStr = md5ForUpper32Byte(beforeSignStr)

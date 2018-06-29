@@ -41,9 +41,7 @@
     for (NSString* categoryId in sortArray)
     {
         NSString *value = [dic objectForKey:categoryId];
-        if (value && ![value isEqualToString:@""]) {
-             argumentString = [argumentString stringByAppendingString:[NSString stringWithFormat:@"%@=%@K",categoryId, value]];
-        }
+        argumentString = [argumentString stringByAppendingString:[NSString stringWithFormat:@"%@=%@K",categoryId, value]];
     }
 #error 额外的key
     NSString *signedkey = @"";
